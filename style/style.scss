@@ -66,6 +66,7 @@
                         width: 60%;
                         height: 60%;
                         margin-right: 25%;
+                        transform: translateX(17%);
                     }
                 }
             }
@@ -92,10 +93,12 @@
                         margin-bottom: 20px;
                         @media screen and (max-width: 375px) {
                             margin-bottom: 0px;
+                            /* transform: translateX(-8%); */
                         }
                     }
                     @media screen and (max-width: 375px) {
                         font-size: 1rem;
+                        /* transform: translateX(-8%); */
                     }
                 }
                 p {
@@ -107,8 +110,10 @@
                     @media screen and (max-width: 375px) {
                         font-size: 0.8rem;
                         text-align: center;
-                        width: 100%;
+                        width: 63%;
                         margin-bottom: 0px;
+                        margin-top: 15px;
+                        /* transform: translateX(-8%); */
                     }
                 }
                 button {
@@ -119,10 +124,13 @@
                     color: hsl(300, 69%, 71%);
                     font-size: 1.5rem;
                     transition: 0.5s;
+                    box-shadow: 1px 2px 2px rgba(53, 53, 53, 0.842);
                     @media screen and (max-width: 375px) {
                         font-size: 0.8rem;
                         width: 150px;
                         height: 32px;
+                        margin-top: 15px;
+                        /* transform: translateX(-8%); */
                     }
                     &:hover {
                         color: white;
@@ -144,10 +152,16 @@
                 height: 100%;
                 display: flex;
                 align-items: center;
+                @media screen and (max-width: 375px) {
+                    /* transform: translateX(-8%); */
+                }
                 i {
                     font-size: 3rem;
                     color: white;
                     margin-right: 10%;
+                    @media screen and (max-width: 375px) {
+                        font-size: 1.5rem;
+                    }
                 }
             }
         }
